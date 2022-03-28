@@ -48,7 +48,7 @@ def bubble1(lst):
 
 print('1st sort option: ')
 print(bubble1(array1))
-print('#' * 100)
+print('#' * 55)
 
 
 def bubble2(lst):
@@ -62,12 +62,12 @@ def bubble2(lst):
 
 print('2nd sort option: ')
 print(bubble2(array2))
-print('#' * 100)
+print('#' * 55)
 
 cProfile.run('bubble1(array1)')
 cProfile.run('bubble2(array2)')
 
-# The evaluation of smartness:
+# The evaluation of "smartness":
 # A noticeable difference in time starts with the length of the input array order 10**3:
 # First option: 14 function calls in 0.001 seconds, two orders of magnitude faster,
 # but memory occupied is slightly more than 18104

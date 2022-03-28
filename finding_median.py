@@ -13,9 +13,9 @@ print(f'Input: {array}')
 min_element = min(array)
 # all values of the list elements are in the range:
 size_sorted = max(array) - min_element
-# form an array of zeros with a size in the range of scatter of values
+#  an array of zeros with a size in the range of scatter of values
 sort = [i * 0 for i in range(size_sorted + 1)]
-# we form a dictionary in which we count the number of occurrences of list elements
+# a dictionary in which we count the number of occurrences of list elements
 value_weight = Counter(array)
 # sort the resulting pairs (values - number of occurrences) by the value of the element of the original array
 for key, value in value_weight.items():
@@ -33,4 +33,4 @@ for tuple_ in sort:
     if n >= m:
         median = tuple_[0]
         break
-print(f'Медиана исходного массива: {median}')
+print(f'Median of the array: {median}')

@@ -6,7 +6,7 @@ import hashlib
 
 
 def count_substrings(s):
-    # future substrings will be stored in the set to avoid duplication
+    # substrings will be stored in the set to avoid duplication
     h_subs = set()
     # iterate over all possible segments of the string
     for i in range(len(s)):

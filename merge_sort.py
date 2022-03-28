@@ -9,7 +9,7 @@ print(f'Input: {array}')
 
 
 def merge_sort(lst):
-    # the first step of the merge sort algorithm is to divide the array into arrays of unit lengths:
+    # the first step of the merge sort algorithm is to divide the array into arrays of lengths = 1:
     if len(lst) > 1:
         # so as long as there are pieces longer than one: divide in half and form lists of halves
         middle = len(lst) // 2
